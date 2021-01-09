@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number Guessing Game..!</title>
+	<style type="text/css">
+
+	body{
+           width: 600px;
+           margin: 0 auto;
+           padding: 0 60px 60px 60px;
+           border: 5px solid black;
+           
+           background-clip: content-box;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Number guessing game</h1>
+<p>We have selected a random number between 1 and 100 for you.See if you can guess it in 10 turns or fewer. </p>
+<p>We'll tell you if your guess was too high or too low.</p>
+
+
+<div class="resultParas">
+  <p class="guesses"></p>
+  <p class="lastResult"></p>
+  <p class="lowOrHi"></p>
+</div>
+
+<label for="guessField">Enter a guess: </label><input type="text" id="guessField" class="guessField">
+<input type="submit" value="Submit guess" class="guessSubmit">
+
+
+
+
+<script type="text/javascript" src="scripts/numberGuess.js"></script>
+</body>
+</html>
